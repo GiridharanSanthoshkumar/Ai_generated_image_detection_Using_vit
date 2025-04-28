@@ -27,7 +27,7 @@ function ImageUpload() {
       const res = await axios.post("http://127.0.0.1:8000/predict/", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
-      setResult(res.data.probabilities);
+      setResult(res.data.predictions);
       console.log(res.data.predictions);
     } catch (err) {
       console.error("Upload failed", err);

@@ -31,3 +31,4 @@ async def predict(file: UploadFile = File(...)):
     result = pipe(image)
     return {"predictions": result}
 
+

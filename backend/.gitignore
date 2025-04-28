@@ -11,8 +11,11 @@
 # production
 /build
 
+# dependencies
 /__pycache__
 
+# trained model 
+/model
 
 # misc
 .DS_Store

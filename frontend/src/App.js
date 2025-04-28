@@ -3,7 +3,7 @@ import ImageUpload1 from "./ImageUpload1";
 function App() {
   return (
     <div className="App">
-      <ImageUpload1></ImageUpload1>
+      <ImageUpload></ImageUpload>
     </div>
   );
 }
